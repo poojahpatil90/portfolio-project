@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  goTo(page) {
+    console.log('scroll to page ' + page);
+    document.querySelector('.' + page).scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    });
+  }
 }

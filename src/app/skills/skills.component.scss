@@ -1,0 +1,52 @@
+@import '../../sass/variables';
+
+$card-background: $blue-color;
+
+*{
+    text-align: center;
+    color: $font-color;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-bottom: 20px;
+}
+
+//Card css
+.card {
+    display: flex;
+    flex-direction: column; 
+    box-shadow: 0 4px 8px 0 $shadow;
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: $card-background;
+    text-align: center;
+    margin: 30px;
+
+    &:hover {
+	    box-shadow: 0 8px 16px 0 $shadow;
+	}
+
+    img {
+        object-fit: contain;
+        width: 100px;
+        height: 100px;
+    }
+
+}
+
+.skill {
+    flex-basis: 20%;
+    margin-bottom: 2%;
+}
+
+.skillHeader {
+    font-size: 30px;
+    text-align: left;
+    color: $font-color;
+    margin: 20px 45px;
+    border-bottom: 2px solid $white-color;
+    padding-bottom: 15px;
+}

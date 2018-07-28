@@ -1,0 +1,19 @@
+@import '../sass/variables';
+
+.grid {
+	display: grid;
+	grid-template-rows: 100vh auto auto auto;
+	grid-template-columns: auto;
+
+	app-about {
+		background-color: $blue-color;
+	}
+
+	app-skills {
+		background-color: $white-color;
+	}
+
+	app-contact {
+		background-color: $black-color;
+	}
+}

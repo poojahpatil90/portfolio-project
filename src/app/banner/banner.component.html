@@ -1,0 +1,16 @@
+<div class="banner">
+	<particles [style]="myStyle" [width]="width" [height]="height" [params]="myParams">
+		</particles>
+		<div id="bannerImg"></div>
+		<nav>
+			<div (click)="scrollDown('banner')">Home</div>
+			<div (click)="scrollDown('about')">About</div>
+			<div (click)="scrollDown('skills')">Skills</div>
+			<div (click)="scrollDown('contact')">Contact</div>
+		</nav>
+		<div class="center">
+			<p class="hello">Hello! I'm,</p>
+			<p class="name">Pooja Patil</p>
+			<p class="roles">{{typed}}</p>
+		</div>
+</div>
