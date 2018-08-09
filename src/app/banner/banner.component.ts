@@ -43,6 +43,13 @@ export class BannerComponent implements OnInit {
         shape: {
           type: 'circle',
         },
+      },
+      interactivity: {
+        events: {
+          onhover: {
+            mode: ['bubble', 'repulse']
+          }
+        }
       }
     };
 
