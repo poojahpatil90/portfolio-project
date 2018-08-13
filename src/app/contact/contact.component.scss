@@ -6,8 +6,6 @@ a {
 
 .contactWrapper {
 	display: flex;
-	height: 100%;
-	width: 100%;
 	color: $white-color;
 	justify-content: space-around;
 	padding-bottom: 20px;
@@ -16,6 +14,7 @@ a {
 .getInTouch {
 	display: flex;
 	flex-direction: column;
+	margin-left: -77%;
 
 	span {
 		display: flex;
